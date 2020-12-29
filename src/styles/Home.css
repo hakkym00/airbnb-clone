@@ -1,6 +1,10 @@
 .home__section {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   padding: 25px;
+}
+@media screen and (max-width: 500px) {
+  .home__section {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }

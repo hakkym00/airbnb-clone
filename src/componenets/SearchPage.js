@@ -38,7 +38,7 @@ function SearchPage() {
       />
 
       <SearchResult
-        img="https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg"
+        img="https://image.insider.com/585029a0dd0895bc548b4b8b?width=750&format=jpeg&auto=webp"
         location="Private room in center of London"
         title="London Studio Apartments"
         description="4 guest · 4 bedroom · 4 bed · 2 bathrooms · Free parking · Washing Machine"

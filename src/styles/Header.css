@@ -36,3 +36,11 @@
   justify-content: space-between;
   width: 15vw;
 }
+@media screen and (max-width: 500px) {
+  .header {
+    justify-content: center;
+  }
+  .header__right {
+    display: none;
+  }
+}

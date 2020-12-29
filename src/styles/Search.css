@@ -3,6 +3,7 @@
   top: 35px;
   left: 25%;
   width: 100vw;
+  z-index: 100;
 }
 .search > h2 {
   display: flex;
@@ -22,6 +23,7 @@
   left: 0;
   top: 395px;
   border: none;
+  z-index: 100;
 }
 .search > input:focus {
   outline: 0;
@@ -34,8 +36,15 @@
   top: 450px;
   left: 0;
   width: 579px;
+  z-index: 100;
 }
 .search > button:hover {
   color: #ff7779 !important;
   background: #fff !important;
+}
+@media screen and (max-width: 500px) {
+  .search {
+    width: 100%;
+    overflow-x: scroll;
+  }
 }
